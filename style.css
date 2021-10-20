@@ -1,0 +1,42 @@
+body
+{
+    background-color:#3F826D;
+}
+h1
+{
+    color:#CBD4C2;
+    background-color:#374A67;
+}
+#show_sketch
+{
+    float:right;
+}
+canvas
+{
+    border:5px solid white;
+    border-radius:20px;
+    animation-name:ex;
+    animation-duration:4s;
+    margin-top:50px;
+    animation-iteration-count: infinite;
+}
+@keyframes ex
+{
+    from{box-shadow:1px 1px 38px #EDF060;}
+    to{box-shadow: 1px 1px 38px #58FCEC;}
+}
+p
+{
+    padding-top: 10px;
+    font-size: 25px;
+}
+#score
+{
+    float:left;
+    font-size:25px;
+}
+#timer
+{
+    float:right;
+    font-size:25px;
+}
